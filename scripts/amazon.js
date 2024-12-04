@@ -63,8 +63,6 @@ products.forEach((product) => {
 	    	button.addEventListener('click',()=>{
 
 		    	const productName = button.dataset.productName;
-		    		    		   			console.log(item);
-
 		    	let matchingItem ;
 		    	if(cart){
 		    		cart.forEach((item)=>{
